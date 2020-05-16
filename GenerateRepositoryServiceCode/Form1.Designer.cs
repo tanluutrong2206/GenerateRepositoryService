@@ -57,8 +57,14 @@
             this.txtFileRepoInterface = new System.Windows.Forms.TextBox();
             this.btnFileRepoInterface = new System.Windows.Forms.Button();
             this.btnGenerate = new System.Windows.Forms.Button();
-            this.txtReplaceName = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.txtReplace1 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtReplaceTo1 = new System.Windows.Forms.TextBox();
+            this.txtReplace2 = new System.Windows.Forms.TextBox();
+            this.txtReplaceTo2 = new System.Windows.Forms.TextBox();
+            this.txtReplace3 = new System.Windows.Forms.TextBox();
+            this.txtReplaceTo3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -319,29 +325,79 @@
             this.btnGenerate.UseVisualStyleBackColor = true;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
-            // txtReplaceName
+            // txtReplace1
             // 
-            this.txtReplaceName.Location = new System.Drawing.Point(198, 485);
-            this.txtReplaceName.Name = "txtReplaceName";
-            this.txtReplaceName.Size = new System.Drawing.Size(273, 23);
-            this.txtReplaceName.TabIndex = 4;
+            this.txtReplace1.Location = new System.Drawing.Point(832, 110);
+            this.txtReplace1.Name = "txtReplace1";
+            this.txtReplace1.Size = new System.Drawing.Size(209, 23);
+            this.txtReplace1.TabIndex = 4;
             // 
-            // label10
+            // label11
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(40, 488);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(149, 15);
-            this.label10.TabIndex = 5;
-            this.label10.Text = "Replace text with file name";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(871, 61);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(120, 15);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "Word want to replace";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(1195, 61);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(63, 15);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "Replace To";
+            // 
+            // txtReplaceTo1
+            // 
+            this.txtReplaceTo1.Location = new System.Drawing.Point(1122, 110);
+            this.txtReplaceTo1.Name = "txtReplaceTo1";
+            this.txtReplaceTo1.Size = new System.Drawing.Size(209, 23);
+            this.txtReplaceTo1.TabIndex = 4;
+            // 
+            // txtReplace2
+            // 
+            this.txtReplace2.Location = new System.Drawing.Point(832, 139);
+            this.txtReplace2.Name = "txtReplace2";
+            this.txtReplace2.Size = new System.Drawing.Size(209, 23);
+            this.txtReplace2.TabIndex = 4;
+            // 
+            // txtReplaceTo2
+            // 
+            this.txtReplaceTo2.Location = new System.Drawing.Point(1122, 139);
+            this.txtReplaceTo2.Name = "txtReplaceTo2";
+            this.txtReplaceTo2.Size = new System.Drawing.Size(209, 23);
+            this.txtReplaceTo2.TabIndex = 4;
+            // 
+            // txtReplace3
+            // 
+            this.txtReplace3.Location = new System.Drawing.Point(832, 168);
+            this.txtReplace3.Name = "txtReplace3";
+            this.txtReplace3.Size = new System.Drawing.Size(209, 23);
+            this.txtReplace3.TabIndex = 4;
+            // 
+            // txtReplaceTo3
+            // 
+            this.txtReplaceTo3.Location = new System.Drawing.Point(1122, 168);
+            this.txtReplaceTo3.Name = "txtReplaceTo3";
+            this.txtReplaceTo3.Size = new System.Drawing.Size(209, 23);
+            this.txtReplaceTo3.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 538);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.txtReplaceName);
+            this.ClientSize = new System.Drawing.Size(1432, 538);
+            this.Controls.Add(this.txtReplaceTo3);
+            this.Controls.Add(this.txtReplace3);
+            this.Controls.Add(this.txtReplaceTo2);
+            this.Controls.Add(this.txtReplace2);
+            this.Controls.Add(this.txtReplaceTo1);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.txtReplace1);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.btnFileRepoInterface);
             this.Controls.Add(this.txtFileRepoInterface);
@@ -409,8 +465,14 @@
         private System.Windows.Forms.TextBox txtFileRepoInterface;
         private System.Windows.Forms.Button btnFileRepoInterface;
         private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.TextBox txtReplaceName;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtReplace1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtReplaceTo1;
+        private System.Windows.Forms.TextBox txtReplace2;
+        private System.Windows.Forms.TextBox txtReplaceTo2;
+        private System.Windows.Forms.TextBox txtReplace3;
+        private System.Windows.Forms.TextBox txtReplaceTo3;
     }
 }
 
