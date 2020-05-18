@@ -346,9 +346,9 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(1195, 61);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(63, 15);
+            this.label12.Size = new System.Drawing.Size(122, 15);
             this.label12.TabIndex = 5;
-            this.label12.Text = "Replace To";
+            this.label12.Text = "Replace To {fileName}";
             // 
             // txtReplaceTo1
             // 
